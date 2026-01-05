@@ -1,0 +1,22 @@
+====================================
+Nama Pasien     : asdasd
+Umur            : 2
+Jenis Kelamin   : l
+Riwayat Penyakit: asdasdl
+Total Obat      : 79000
+Biaya Ongkir    : 9000
+Total Bayar     : 88000
+Metode Bayar    : Transfer Bank
+====================================
+
+====================================
+Nama Pasien     : asdasd
+Umur            : 2
+Jenis Kelamin   : l
+Riwayat Penyakit: asdasdl
+Total Obat      : 79000
+Biaya Ongkir    : 9000
+Total Bayar     : 88000
+Metode Bayar    : Qris
+====================================
+

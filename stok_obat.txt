@@ -1,0 +1,200 @@
+Paracetamol 500 mg;12000;100;Meredakan panas dan peradangan
+Ibuprofen;5500;100;Meredakan peradangan dan nyeri
+Antasida(promagh);10000;100;Meredakan gejala kelebihan asam lambung
+Cetrizine 10 mg;2000;100;Meredakan alergi
+Loperamide;17000;100;Meredakan diare
+Bodrex flu dan batuk;2500;100;Meredakan flu dan batuk berdahak
+Paramex;20000;100;Mengatasi sakit kepala
+Amoxicillin 500 mg;30000;100;Mengobati berbagai infeksi bakteri
+Ciprofloxacin 500 mg;40000;100;Mengatasi infeksi bakteri
+Azithromycin 500 mg;70000;100;Mengobati infeksi bakteri
+Omeprazole 20 mg;25000;100;Mengurangi produksi asam lambung
+Ranitidine 150 mg;4000;100;Mengurangi produksi asam lambung
+Vitamin C 500 mg;18000;100;Meningkatkan daya tahan tubuh
+Vitamin D3 1000 IU;20000;100;Membantu penyerapan kalsium
+Zinc 20 mg;20000;100;Mendukung sistem imun
+Betadine Solusi 15 ml;18000;100;Larutan Antiseptik untuk luka
+Insto reguler 15 ml;17000;100;Meredakan iritasi pada mata
+Kool Fever Dewasa;9000;100;Kompres penurun panas untuk orang dewasa
+Kool Fever Anak;9000;100;Kompres penurun panas untuk anak-anak
+Kool Fever Bayi;6000;100;Kompres penurun panas untuk bayi
+Pseudoephedrine HCl 30 mg;15000;100;Meredakan hidung tersumbat
+Dextromethorphan 15 mg;12000;100;Meredakan batuk kering
+Diphenhydramine 25 mg;8000;100;Antihistamin untuk alergi
+Phenylephrine 10 mg;10000;100;Meredakan hidung tersumbat
+Codeine Phosphate 10 mg;25000;100;Meredakan batuk
+Tramadol HCl 50 mg;50000;100;Pereda nyeri sedang hingga berat
+Loratadine 10 mg;18000;100;Meredakan alergi
+Chlorpheniramine Maleate 4 mg;15000;100;Antihistamin
+Salbutamol 2 mg;35000;100;Meredakan asma dan bronkitis
+Theophylline 100 mg;45000;100;Bronkodilator untuk asma
+Methylphenidate 10 mg;100000;100;Stimulan untuk ADHD
+Phentermine 15 mg;20000;100;Penurun nafsu makan
+Alprazolam 0.25 mg;25000;100;Obat cemas dan gangguan panik
+Diazepam 5 mg;15000;100;Obat cemas dan tidur
+Lorazepam 1 mg;20000;100;Obat cemas dan gangguan tidur
+Midazolam 5 mg;25000;100;Obat sedatif sebelum prosedur
+Ranitidine HCl 150 mg;25000;100;Mengurangi asam lambung
+Famotidine 20 mg;20000;100;Mengurangi asam lambung
+Rabeprazole 20 mg;30000;100;Mengurangi asam lambung
+Esomeprazole 40 mg;35000;100;Mengurangi asam lambung
+Metformin 500 mg;15000;100;Mengontrol gula darah
+Insulin Regular;200000;100;Mengontrol gula darah
+Insulin Lispro;250000;100;Mengontrol gula darah cepat
+Atorvastatin 20 mg;25000;100;Menurunkan kolesterol
+Simvastatin 20 mg;20000;100;Menurunkan kolesterol
+Losartan 50 mg;20000;100;Mengontrol tekanan darah
+Amlodipine 5 mg;18000;100;Mengontrol tekanan darah
+Metoprolol 50 mg;15000;100;Mengontrol tekanan darah
+Warfarin 5 mg;30000;100;Pengencer darah
+Digoxin 0.25 mg;25000;100;Mengobati gangguan jantung
+Levothyroxine 50 mcg;20000;100;Menggantikan hormon tiroid
+Prednisone 5 mg;25000;100;Kortikosteroid anti-inflamasi
+Dexamethasone 0.5 mg;30000;100;Kortikosteroid anti-inflamasi
+Methotrexate 2.5 mg;50000;100;Obat kanker dan autoimun
+Cyclophosphamide 50 mg;75000;100;Obat kanker imun
+Risperidone 2 mg;45000;100;Obat gangguan psikotik
+Olanzapine 5 mg;50000;100;Obat gangguan psikotik
+Quetiapine 25 mg;40000;100;Obat gangguan psikotik
+Clozapine 25 mg;75000;100;Obat gangguan psikotik
+Haloperidol 5 mg;35000;100;Obat gangguan psikotik
+Calcium Carbonate 500 mg;12000;100;Meredakan asam lambung
+Magnesium Hydroxide 400 mg;15000;100;Meredakan asam lambung
+Simethicone 80 mg;20000;100;Meredakan perut kembung
+Dextromethorphan Syrup;15000;100;Meredakan batuk
+Guaifenesin 200 mg;20000;100;Meredakan batuk berdahak
+Pseudoephedrine Syrup;15000;100;Meredakan hidung tersumbat
+Acyclovir Cream 5%;30000;100;Antivirus kulit
+Miconazole Cream 2%;25000;100;Antijamur kulit
+Clotrimazole Cream 1%;20000;100;Antijamur kulit
+Hydrocortisone Cream 1%;20000;100;Kortikosteroid ringan
+Calamine Lotion;25000;100;Meredakan gatal dan iritasi
+Zinc Oxide Cream;20000;100;Pelindung kulit
+Salicylic Acid 2%;15000;100;Meredakan jerawat
+Benzoyl Peroxide 5%;25000;100;Meredakan jerawat
+Vitamin B Complex;20000;100;Vitamin B kompleks
+Vitamin E 400 IU;25000;100;Vitamin E untuk kulit
+Fish Oil 1000 mg;150000;100;Asam lemak omega-3
+Calcium + D3;30000;100;Kalsium dan vitamin D
+Iron + Folic Acid;25000;100;Suplemen zat besi
+Multivitamin Anak;15000;100;Vitamin untuk anak-anak
+Sildenafil 50 mg;150000;100;Disfungsi ereksi
+Tadalafil 20 mg;200000;100;Disfungsi ereksi
+Clonazepam 0.5 mg;25000;100;Obat cemas dan tidur
+Nitrazepam 5 mg;20000;100;Obat tidur
+Temazepam 10 mg;25000;100;Obat tidur
+Zopiclone 7.5 mg;20000;100;Obat tidur
+Zolpidem 10 mg;20000;100;Obat tidur
+Modafinil 100 mg;300000;100;Meningkatkan kewaspadaan
+Armodafinil 150 mg;400000;100;Meningkatkan kewaspadaan
+Donepezil 5 mg;150000;100;Penyakit Alzheimer
+Memantine 10 mg;200000;100;Penyakit Alzheimer
+Rivastigmine 3 mg;150000;100;Penyakit Alzheimer
+Galantamine 8 mg;180000;100;Penyakit Alzheimer
+Carbamazepine 200 mg;150000;100;Antikonvulsan
+Phenytoin 100 mg;120000;100;Antikonvulsan
+Valproic Acid 250 mg;150000;100;Antikonvulsan
+Gabapentin 300 mg;200000;100;Antikonvulsan
+Pregabalin 75 mg;150000;100;Antikonvulsan
+Topiramate 25 mg;200000;100;Antikonvulsan
+Levetiracetam 500 mg;150000;100;Antikonvulsan
+Clopidogrel 75 mg;20000;100;Pengencer darah
+Rivaroxaban 10 mg;150000;100;Pengencer darah
+Apixaban 2.5 mg;200000;100;Pengencer darah
+Rituximab;5000000;100;Terapi kanker
+Trastuzumab;6000000;100;Terapi kanker payudara
+Bevacizumab;7000000;100;Terapi kanker kolorektal
+Pembrolizumab;8000000;100;Imunoterapi kanker
+Nivolumab;9000000;100;Imunoterapi kanker
+Imatinib 100 mg;10000000;100;Obat kanker darah
+Sorafenib 200 mg;12000000;100;Obat kanker hati
+Lenalidomide 10 mg;15000000;100;Obat kanker darah
+Thalidomide 100 mg;18000000;100;Obat kanker
+Bortezomib 1 mg;20000000;100;Obat kanker
+Carfilzomib;25000000;100;Obat kanker
+Ixazomib;30000000;100;Obat kanker
+Brentuximab Vedotin;35000000;100;Obat kanker
+Venetoclax;40000000;100;Obat kanker
+Ibrutinib;45000000;100;Obat kanker
+Acyclovir IV;50000000;100;Antivirus IV
+Ganciclovir IV;55000000;100;Antivirus IV
+Lactobacillus Capsule;20000;100;Probiotik pencernaan
+Saccharomyces boulardii;30000;100;Probiotik
+Probiotic Kids;25000;100;Probiotik untuk anak
+Glucosamine 500 mg;25000;100;Suplemen sendi
+Chondroitin 400 mg;30000;100;Suplemen sendi
+Collagen Type II;40000;100;Suplemen sendi
+Evening Primrose Oil;50000;100;Suplemen kulit
+Coenzyme Q10;15000;100;Antioksidan
+Folic Acid 5 mg;20000;100;Suplemen asam folat
+Vitamin B12 1000 mcg;25000;100;Suplemen B12
+Vitamin K2 MK-7;30000;100;Suplemen K2
+Magnesium Citrate;20000;100;Suplemen magnesium
+Potassium Chloride;25000;100;Suplemen kalium
+Sodium Chloride IV;30000;100;Infus elektrolit
+Dextrose 5% IV;35000;100;Infus glukosa
+Dextrose 10% IV;40000;100;Infus glukosa
+Lactated Ringer's;45000;100;Infus cairan tubuh
+Normal Saline;50000;100;Infus cairan tubuh
+Heparin Injection;100000;100;Antikoagulan IV
+Protamine Sulfate;150000;100;Antidotum heparin
+Meloxicam 7.5 mg;20000;100;Pereda nyeri anti-inflamasi
+Naproxen 250 mg;15000;100;Pereda nyeri anti-inflamasi
+Celecoxib 200 mg;25000;100;Pereda nyeri anti-inflamasi
+Diclofenac Sodium 50 mg;20000;100;Pereda nyeri anti-inflamasi
+Indomethacin 25 mg;25000;100;Pereda nyeri anti-inflamasi
+Piroxicam 20 mg;20000;100;Pereda nyeri anti-inflamasi
+Ketorolac 10 mg;30000;100;Pereda nyeri anti-inflamasi
+Mefenamic Acid 500 mg;25000;100;Pereda nyeri anti-inflamasi
+Chlorzoxazone 250 mg;30000;100;Relaksan otot
+Cyclobenzaprine 5 mg;25000;100;Relaksan otot
+Baclofen 10 mg;30000;100;Relaksan otot
+Tizanidine 2 mg;25000;100;Relaksan otot
+Dantrolene 25 mg;35000;100;Relaksan otot
+Tolperisone 150 mg;30000;100;Relaksan otot
+Eperisone 50 mg;25000;100;Relaksan otot
+Methylprednisolone 4 mg;40000;100;Kortikosteroid
+Triamcinolone 5 mg;45000;100;Kortikosteroid
+Betamethasone 0.5 mg;50000;100;Kortikosteroid
+Clobetasol Cream;60000;100;Kortikosteroid topikal
+Fluocinonide Cream;70000;100;Kortikosteroid topikal
+Adalimumab;1000000;100;Terapi autoimun
+Etanercept;1200000;100;Terapi autoimun
+Infliximab;1500000;100;Terapi autoimun
+Ustekinumab;2000000;100;Terapi autoimun
+Secukinumab;2500000;100;Terapi autoimun
+Ixekizumab;3000000;100;Terapi autoimun
+Certolizumab Pegol;3500000;100;Terapi autoimun
+Golimumab;4000000;100;Terapi autoimun
+Anakinra;4500000;100;Terapi autoimun
+Tocilizumab;5000000;100;Terapi autoimun
+Sarilumab;5500000;100;Terapi autoimun
+Baricitinib;6000000;100;Terapi autoimun
+Upadacitinib;6500000;100;Terapi autoimun
+Ruxolitinib;7000000;100;Terapi kanker darah
+Fedratinib;7500000;100;Terapi kanker darah
+Pomalidomide;8000000;100;Terapi kanker
+Lenalidomide Maintenance;8500000;100;Terapi kanker
+Panobinostat;9000000;100;Terapi kanker
+Vorinostat;9500000;100;Terapi kanker
+Romidepsin;10000000;100;Terapi kanker
+Herbal Habbatussauda;25000;100;Herbal untuk stamina
+Herbal Kunyit Asam;30000;100;Herbal untuk pencernaan
+Herbal Jahe Merah;25000;100;Herbal untuk pernapasan
+Herbal Mahkota Dewa;35000;100;Herbal untuk darah tinggi
+Herbal Sirih Hijau;30000;100;Herbal untuk keputihan
+Herbal Daun Jinten;25000;100;Herbal untuk pencernaan
+Herbal Temulawak;30000;100;Herbal untuk hati
+Herbal Daun Sambiloto;35000;100;Herbal untuk radang
+Herbal Pegagan;40000;100;Herbal untuk memori
+Herbal Daun Dewa;35000;100;Herbal untuk darah tinggi
+Minyak Kayu Putih;15000;100;Meredakan nyeri otot
+Minyak Telon;12000;100;Meredakan nyeri otot
+Minyak Angin;10000;100;Meredakan nyeri perut
+Koyo Plaster;18000;100;Plaster pereda nyeri
+Plaster Bekat;20000;100;Plaster untuk bekas luka
+Koyo Anak;15000;100;Plaster pereda nyeri anak
+Tetes Mata Saline;10000;100;Tetes mata pelumas
+Tetes Hidung Saline;12000;100;Tetes hidung pelumas
+Obat Kumur Betadine;20000;100;Obat kumur antiseptik
+Salep Tetracycline 3%;25000;100;Antibiotik topikal
