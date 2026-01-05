@@ -1,0 +1,14 @@
+====================================
+Nama Pasien     : neonal
+Umur            : 21
+Jenis Kelamin   : l
+Riwayat Penyakit: asd
+====================================
+
+====================================
+Nama Pasien     : jancookk wahyu
+Umur            : 99
+Jenis Kelamin   : l
+Riwayat Penyakit: gila
+====================================
+

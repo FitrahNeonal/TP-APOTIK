@@ -1,0 +1,17 @@
+NIK               : 12312
+Nama              : refan
+Tempat Lahir      : medan
+Tanggal Lahir     : 10-20-1000
+Jenis Kelamin     : Laki-laki
+Golongan Darah    : O
+Alamat            : medan
+RT                : 1
+RW                : 1
+Kelurahan/Desa    : kag
+Kecamatan         : jndg
+Agama             : 1
+Status Perkawinan : Kawin
+Pekerjaan         : mahasewa
+Kewarganegaraan   : WNI
+Berlaku Hingga    : 3
+----------------------------------------
