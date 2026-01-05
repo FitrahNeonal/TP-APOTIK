@@ -1,0 +1,291 @@
+/* ================================
+   GLOBAL STYLE
+================================= */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Background */
+    background: url('backgronud apotik.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Efek gelap transparan untuk membantu kontras */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(2px);
+    z-index: -1;
+}
+
+/* ================================
+   CONTAINER UMUM
+================================= */
+.container,
+.container_user {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.4);
+    width: 340px;
+    animation: fadeIn 0.4s ease;
+}
+
+/* Container khusus user (table, list, dll) */
+.container_user {
+    width: 450px;
+}
+
+/* Animasi masuk */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ================================
+   TITLE
+================================= */
+h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #0069d9;
+    text-align: center;
+}
+
+/* ================================
+   FORM INPUTS
+================================= */
+input, select {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 12px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    transition: 0.2s ease;
+    font-size: 14px;
+}
+
+input:focus,
+select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0,123,255,0.6);
+}
+
+/* ================================
+   BUTTON
+================================= */
+button {
+    width: 100%;
+    background: #007bff;
+    color: white;
+    padding: 10px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+button:hover {
+    background: #0056b3;
+    transform: translateY(-1px);
+}
+
+/* Tombol kecil (opsional) */
+.btn-small {
+    width: auto;
+    padding: 8px 12px;
+}
+
+/* ================================
+   LINKS
+================================= */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* ================================
+   LISTS
+================================= */
+ul {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+/* ================================
+   TABLE
+================================= */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #007bff;
+    color: white;
+    font-size: 15px;
+}
+
+td {
+    background: #ffffffd8;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover td {
+    background: #eef6ff;
+}
+
+/* Total pembayaran */
+.total-box {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #003f8c;
+    text-align: right;
+}
+
+/* update beli_php */
+
+/* ============================
+   LAYOUT BACKGROUND
+============================ */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: url('backgronud apotik.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/* ============================
+   BOX CONTAINER
+============================ */
+.container_obat {
+    margin-top: 40px;
+    width: 850px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+/* ============================
+   TITLE
+============================ */
+.container_obat h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #007bff;
+    letter-spacing: 1px;
+}
+
+/* ============================
+   TABLE STYLING
+============================ */
+.table-box {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+th {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+td {
+    background: white;
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover td {
+    background: #f1f8ff;
+}
+
+/* ============================
+   INPUT JUMLAH
+============================ */
+.input-jumlah {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* ============================
+   BUTTON STYLE
+============================ */
+.btn-submit {
+    background: #007bff;
+    color: white;
+    font-size: 18px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 200px;
+    transition: 0.2s;
+}
+
+.btn-submit:hover {
+    background: #0056b3;
+}
+
+a.kembali {
+    display: inline-block;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a.kembali:hover {
+    text-decoration: underline;
+}

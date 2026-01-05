@@ -1,0 +1,32 @@
+[
+    {
+        "nama": "Paracetamol",
+        "stok": 25,
+        "harga": 5000,
+        "fungsi": "Menurunkan demam dan meredakan nyeri"
+    },
+    {
+        "nama": "Amoxicillin",
+        "stok": 15,
+        "harga": 12000,
+        "fungsi": "Antibiotik untuk infeksi bakteri"
+    },
+    {
+        "nama": "Vitamin C",
+        "stok": 50,
+        "harga": 3000,
+        "fungsi": "Meningkatkan daya tahan tubuh"
+    },
+    {
+        "nama": "OBH Combi",
+        "stok": 20,
+        "harga": 8000,
+        "fungsi": "Obat batuk dan flu"
+    },
+    {
+        "nama": "Antangin",
+        "stok": 40,
+        "harga": 3500,
+        "fungsi": "Masuk angin dan menjaga stamina"
+    }
+]
