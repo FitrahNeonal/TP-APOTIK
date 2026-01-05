@@ -3,6 +3,7 @@
 #include <string>
 #include <fstream>
 #include <sstream>
+#include <cctype>
 
 #include "data_obat.h"
 #include "queue_linked.h"
@@ -126,7 +127,41 @@ void loadStokFromFile(dataapotik &d) {
     rebuildTree(d);
 }
 
-// === Fungsi-fungsi lain tetap sama, tapi disesuaikan dengan array 1D ===
+// Fungsi baru: Cek NIK dari file data_ktp.txt
+bool cekNIK(const string& nik_input) {
+    ifstream file("data_ktp.txt");
+    if (!file.is_open()) {
+        cout << "File data_ktp.txt tidak ditemukan!" << endl;
+        return false;
+    }
+
+    string line;
+    while (getline(file, line)) {
+        // Cari posisi ":"
+        size_t pos = line.find(":");
+        if (pos != string::npos) {
+            string key = line.substr(0, pos);
+            string value = line.substr(pos + 1);
+
+            // Hilangkan spasi di awal dan akhir key & value
+            key.erase(0, key.find_first_not_of(" \t"));
+            key.erase(key.find_last_not_of(" \t") + 1);
+            value.erase(0, value.find_first_not_of(" \t"));
+            value.erase(value.find_last_not_of(" \t") + 1);
+
+            // Jika key adalah "NIK", bandingkan dengan input
+            if (key == "NIK") {
+                if (value == nik_input) {
+                    file.close();
+                    return true; // NIK cocok
+                }
+            }
+        }
+    }
+
+    file.close();
+    return false; // NIK tidak ditemukan
+}
 
 void menulogin(dataapotik &d){
     system("cls");
@@ -236,17 +271,27 @@ void loginAdmin(dataapotik &d){
     cin >> d.a;
     cout << "Masukan password (admin): ";
     cin >> d.b; 
+    if(d.a == d.admin && d.b == d.passwordAdmin){
+        cout << "Login admin berhasil.\n";
+    } else {
+        cout << "Login admin gagal.\n";
+    }
+    system("pause");
 }
 
 void loginUser(dataapotik &d){
     system("cls");
     cout << "== ANDA LOGIN SEBAGAI PELANGGAN ==\n";
-    d.user = "user";
-    d.passwordUser = "user";
-    cout << "Masukan username (user): ";
-    cin >> d.a;
-    cout << "Masukan password (user): ";
-    cin >> d.b; 
+    cout << "Masukkan NIK Anda: ";
+    cin >> d.a; // Simpan input NIK ke d.a
+
+    if (cekNIK(d.a)) {
+        cout << "\nLogin berhasil sebagai pelanggan.\n";
+        cout << "Selamat datang!\n";
+    } else {
+        cout << "\nLogin gagal! NIK tidak ditemukan atau tidak valid.\n";
+    }
+    system("pause");
 }
 
 void isidatapasien(dataapotik &d){
@@ -757,13 +802,13 @@ void hasillogin(dataapotik &d){
             }
         } else if(d.pilihmenuLogin == 2){
             loginUser(d);
-            if(d.a == d.user && d.b == d.passwordUser){
+            if(cekNIK(d.a)) { // Login sukses jika NIK valid
                 do {
                     menuutama_pelanggan(d);
                     hasilpilihmenuutamaUser(d);
                 } while(d.pilihmenuUser != 6);
             } else {
-                cout << "Login gagal! Username atau password salah." << endl;
+                cout << "Login gagal! NIK tidak ditemukan." << endl;
                 system("pause");
             }
         } else if(d.pilihmenuLogin > 3 || d.pilihmenuLogin < 1){
